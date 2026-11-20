@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0.0-b1.7.3"
+    android:compileSdkVersion="34"
+    android:compileSdkVersionCodename="14"
+    package="com.mcport.b173"
+    platformBuildVersionCode="34"
+    platformBuildVersionName="14">
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="34"/>
+    <uses-feature
+        android:glEsVersion="0x20000"
+        android:required="true"/>
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.gamepad"
+        android:required="false"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:theme="@style/AppTheme"
+        android:label="Minecraft Beta 1.7.3"
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:isGame="true"
+        android:extractNativeLibs="true"
+        android:appCategory="game">
+        <activity
+            android:name="com.mcport.b173.LauncherActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/GameTheme"
+            android:name="com.mcport.b173.GameActivity"
+            android:exported="false"
+            android:process=":game"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="fontScale|layoutDirection|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale"
+            android:windowSoftInputMode="adjustNothing|stateHidden"
+            android:resizeableActivity="false"/>
+        <activity
+            android:name="com.mcport.b173.ResourcePackActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.mcport.b173.SettingsActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/GameTheme"
+            android:name="com.mcport.b173.LayoutEditorActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape"/>
+    </application>
+</manifest>

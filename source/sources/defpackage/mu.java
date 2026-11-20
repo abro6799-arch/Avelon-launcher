@@ -1,0 +1,65 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes.dex */
+public class mu extends xw {
+    float a;
+
+    public mu(fd fdVar, double d, double d2, double d3, double d4, double d5, double d6) {
+        this(fdVar, d, d2, d3, d4, d5, d6, 1.0f);
+    }
+
+    public mu(fd fdVar, double d, double d2, double d3, double d4, double d5, double d6, float f) {
+        super(fdVar, d, d2, d3, d4, d5, d6);
+        this.aP *= 0.10000000149011612d;
+        this.aQ *= 0.10000000149011612d;
+        this.aR *= 0.10000000149011612d;
+        this.aP += d4;
+        this.aQ += d5;
+        this.aR += d6;
+        float fRandom = 1.0f - ((float) (Math.random() * 0.30000001192092896d));
+        this.k = fRandom;
+        this.j = fRandom;
+        this.i = fRandom;
+        this.g *= 0.75f;
+        this.g *= f;
+        this.a = this.g;
+        this.f = (int) (8.0d / ((Math.random() * 0.8d) + 0.2d));
+        this.f = (int) (this.f * f);
+        this.bq = false;
+    }
+
+    @Override // defpackage.xw
+    public void a(nw nwVar, float f, float f2, float f3, float f4, float f5, float f6) {
+        float f7 = ((this.e + f) / this.f) * 32.0f;
+        if (f7 < 0.0f) {
+            f7 = 0.0f;
+        }
+        if (f7 > 1.0f) {
+            f7 = 1.0f;
+        }
+        this.g = this.a * f7;
+        super.a(nwVar, f, f2, f3, f4, f5, f6);
+    }
+
+    @Override // defpackage.xw, defpackage.sn
+    public void w_() {
+        this.aJ = this.aM;
+        this.aK = this.aN;
+        this.aL = this.aO;
+        int i = this.e;
+        this.e = i + 1;
+        if (i >= this.f) {
+            K();
+        }
+        this.b = 7 - ((this.e * 8) / this.f);
+        this.aQ -= 0.03d;
+        b(this.aP, this.aQ, this.aR);
+        this.aP *= 0.9900000095367432d;
+        this.aQ *= 0.9900000095367432d;
+        this.aR *= 0.9900000095367432d;
+        if (this.aX) {
+            this.aP *= 0.699999988079071d;
+            this.aR *= 0.699999988079071d;
+        }
+    }
+}

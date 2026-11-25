@@ -1,10 +1,10 @@
-BTG FORMERLY AVELON 
+BTG (Formerly Avelon)
 
 Classic worlds. Mobile freedom.
 
-beta on the go is an independent Android launcher project focused on bringing classic Minecraft Java experiences to mobile devices.
+Beta on the Go is an independent Android launcher project focused on bringing classic Minecraft Java experiences to mobile devices.
 
-Built with simplicity, performance, and touchscreen usability in mind, Avelon aims to make classic gameplay feel at home on Android.
+Built with simplicity, performance, and touchscreen usability in mind, BTG aims to make classic gameplay feel at home on Android.
 
 Project goals
 
@@ -18,7 +18,7 @@ Development status
 
 Early development
 
-Btg is currently in its project recovery and development phase. The initial focus is on Minecraft Beta 1.7.3.
+BTG is currently in its project recovery and development phase. The initial focus is on Minecraft Beta 1.7.3.
 
 Compatibility
 
@@ -38,8 +38,12 @@ Credits
 
 The existing Android port is associated with ManyFolds1426 (Vegetable_poetry). Its original code and assets are not being redistributed through this repository while permission and licensing are investigated.
 
-Minecraft is owned by Mojang Studios and Microsoft. Avelon is an unofficial, independent community project and is not affiliated with either company.
+Minecraft is owned by Mojang Studios and Microsoft. BTG is an unofficial, independent community project and is not affiliated with either company.
 
 Community
 
 Bug reports, compatibility feedback, suggestions, and development discussions are welcome through GitHub Issues.
+
+For community discussions, development updates, sneak peeks, and announcements, join our Discord:
+
+"Join the BTG Discord Community" (https://discord.gg/9k6TBKF8R9)

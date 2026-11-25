@@ -1,8 +1,8 @@
-Avelon
+BTG FORMERLY AVELON 
 
 Classic worlds. Mobile freedom.
 
-Avelon is an independent Android launcher project focused on bringing classic Minecraft Java experiences to mobile devices.
+beta on the go is an independent Android launcher project focused on bringing classic Minecraft Java experiences to mobile devices.
 
 Built with simplicity, performance, and touchscreen usability in mind, Avelon aims to make classic gameplay feel at home on Android.
 
@@ -18,7 +18,7 @@ Development status
 
 Early development
 
-Avelon is currently in its project recovery and development phase. The initial focus is on Minecraft Beta 1.7.3.
+Btg is currently in its project recovery and development phase. The initial focus is on Minecraft Beta 1.7.3.
 
 Compatibility
 
